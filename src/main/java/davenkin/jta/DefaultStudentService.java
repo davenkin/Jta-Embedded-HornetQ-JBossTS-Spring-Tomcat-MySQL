@@ -26,7 +26,7 @@ public class DefaultStudentService implements StudentService {
     public void moveStudentFromQueueToDB() throws JMSException {
         String nameAndId = ((TextMessage) jmsTemplate.receive()).getText();
         insertStudent(nameAndId, nameAndId);
-//        throw new RuntimeException("xxxxx");
+        throw new RuntimeException("xxxxx");
     }
 
     private void insertStudent(String name, String id) {

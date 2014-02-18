@@ -28,14 +28,26 @@ dependencies {
             'org.springframework:spring-context-support:3.2.5.RELEASE',
             'org.springframework:spring-jms:3.2.5.RELEASE',
             'org.springframework:spring-aop:3.2.5.RELEASE',
-            'org.hornetq:hornetq-jms-client:2.3.0.Final',
-            'org.apache.geronimo.specs:geronimo-jms_1.1_spec:1.1'
+
+            'org.hornetq:hornetq-core-client:2.2.13.Final',
+            'org.hornetq:hornetq-core:2.2.13.Final',
+            'org.hornetq:hornetq-jms-client:2.2.13.Final',
+            'org.hornetq:hornetq-jms:2.2.13.Final',
+            'org.hornetq:hornetq-logging:2.2.13.Final',
+            'org.hornetq:hornetq-transports:2.0.0.GA',
+            'org.jboss.as:jboss-as-jms-client-bom:7.1.1.Final',
+            'org.jboss.logging:jboss-logging:3.1.2.GA',
+            'org.jboss.netty:netty:3.2.4.Final',
+            'org.jboss:jboss-common-core:2.2.13.GA',
+
 
     )
 
     compile('org.jboss.narayana.jta:narayana-jta:5.0.0.M7') {
         exclude group: 'org.jboss.spec.javax.servlet', module: 'jboss-servlet-api_3.0_spec'
+//        exclude group: 'org.hornetq', module: 'hornetq-commons'
     }
+
 
 }
 

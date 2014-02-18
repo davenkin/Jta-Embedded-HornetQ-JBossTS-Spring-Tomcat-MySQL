@@ -1,5 +1,5 @@
 #! /bin/sh
 
-curl http://localhost:8080/HornetQ-JBossTS-MySQL-Tomcat-Spring-1.0-SNAPSHOT/insertQ
+curl http://localhost:8080/Jta-Embedded-HornetQ-JBossTS-Spring-Tomcat-MySQL-1.0-SNAPSHOT/insertQ
 
 printf "\n"

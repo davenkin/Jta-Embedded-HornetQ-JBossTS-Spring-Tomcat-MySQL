@@ -12,6 +12,7 @@
             classpath:applicationContextDatasource.xml,
             classpath:applicationContextJms.xml,
             classpath:applicationContextJta.xml,
+            classpath:applicationContextHornetQ.xml
         </param-value>
     </context-param>
 
