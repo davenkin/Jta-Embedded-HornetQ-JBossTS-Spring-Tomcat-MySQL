@@ -1,6 +1,4 @@
 
-Java global transaction using HornetQ+JBoss TS+MySQL+Tomcat+Spring
-
 Scenario 1: To run successful transaction:
 (1)run Tomcat
 (2)run deploy.sh to deploy to Tomcat
